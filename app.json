@@ -1,0 +1,30 @@
+{
+  "name": "pose-detection-expo",
+  "displayName": "pose-detection-expo",
+  "expo": {
+    "name": "pose-detection-expo",
+    "slug": "pose-detection-expo",
+    "version": "1.0.0",
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "jsEngine": "jsc",
+    "ios": {
+      "requireFullScreen": true
+    },
+    "plugins": [
+      [
+        "expo-screen-orientation",
+        {
+          "initialOrientation": "DEFAULT"
+        }
+      ],
+      [
+        "expo-sensors",
+        {
+          "motionPermission": "Allow $(PRODUCT_NAME) to access your device motion."
+        }
+      ]
+    ]
+  }
+}
