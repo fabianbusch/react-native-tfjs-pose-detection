@@ -1,3 +1,10 @@
+# Info
+
+**This repository is a copy from https://github.com/tensorflow/tfjs/tree/master/tfjs-react-native and has only dependencies 
+upgraded**
+
+E.g. Expo is now on Version 49 (before: 46)
+
 # Overview
 
 A quick demo for running [TFJS Pose Detection][posedetection] model
